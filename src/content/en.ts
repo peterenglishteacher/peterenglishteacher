@@ -34,7 +34,7 @@ export const en: SiteContent = {
     sectionTitle: "About Peter",
     sectionSubtitle: "A native English teacher who truly understands his students",
     paragraphs: [
-      "Hi, I'm Peter Brown — a native English teacher from Woodhall, in the United Kingdom. I've been living in Seville for years, which has given me a deep understanding of the challenges Spanish speakers face when learning English.",
+      "Hi, I'm Peter Brown — a native English teacher from Cronwall, in the United Kingdom. I've been living in Seville for years, which has given me a deep understanding of the challenges Spanish speakers face when learning English.",
       "With extensive teaching experience, I've helped hundreds of students improve their fluency, confidence and communication skills. Whether you're preparing for an exam, need English for your career or simply want to feel more comfortable speaking, I adapt every lesson to your specific needs and goals.",
       "My approach is practical, conversational and focused entirely on you. I believe that learning English should feel natural and enjoyable — and that's exactly the experience I create in every class.",
     ],
