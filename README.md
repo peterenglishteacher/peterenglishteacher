@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Peter Brown | English Teacher
 
-## Getting Started
+Landing page profesional y bilingüe (ES/EN) para un profesor de inglés nativo.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** con App Router
+- **React 19** + **TypeScript**
+- **Tailwind CSS 4**
+- **Zod** para validaciones
+- **Resend** para envío de emails
+- **Server Actions** para el formulario
+
+## Inicio rápido
 
 ```bash
+# Instalar dependencias
+npm install
+
+# Copiar variables de entorno
+cp .env.local.example .env.local
+
+# Editar las variables de entorno con tu clave de Resend
+# RESEND_API_KEY=re_tu_clave_aqui
+
+# Iniciar en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Configuración de Resend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Crea una cuenta en [resend.com](https://resend.com)
+2. Obtén tu API Key
+3. Configura tu dominio (para producción) o usa el dominio de pruebas
+4. Añade las variables en `.env.local`:
+   ```
+   RESEND_API_KEY=re_tu_clave_aqui
+   EMAIL_FROM=hello@peterenglishteacher.com
+   EMAIL_TO=peterbrown1978.pb@gmail.com
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Despliegue en Vercel
 
-## Learn More
+1. Sube el repositorio a GitHub
+2. Importa el proyecto en [vercel.com](https://vercel.com)
+3. Configura las variables de entorno en el panel de Vercel:
+   - `RESEND_API_KEY`
+   - `EMAIL_FROM`
+   - `EMAIL_TO`
+4. Conecta el dominio `peterenglishteacher.com`
+5. Vercel desplegará automáticamente en cada push
 
-To learn more about Next.js, take a look at the following resources:
+## Estructura del proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/              # App Router (layouts, pages, actions)
+├── components/       # Componentes React
+│   ├── layout/       # Header, Footer, WhatsAppButton
+│   ├── sections/     # Secciones de la landing
+│   └── ui/           # Componentes reutilizables
+├── content/          # Textos en ES e EN
+├── lib/              # Utilidades (i18n, email, SEO, validaciones)
+├── constants/        # Datos de contacto y marca
+└── types/            # TypeScript types
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Idiomas
 
-## Deploy on Vercel
+La web se sirve en dos rutas:
+- `/es` — Español (por defecto)
+- `/en` — English
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Los textos están centralizados en `src/content/es.ts` y `src/content/en.ts`.
