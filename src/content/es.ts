@@ -4,7 +4,7 @@ export const es: SiteContent = {
   meta: {
     title: "Peter Brown | Profesor de Inglés Nativo — Clases de Inglés Online",
     description:
-      "Aprende inglés online con Peter Brown, profesor nativo del Reino Unido en Sevilla. Clases personalizadas de conversación, gramática, business English, preparación de exámenes y más.",
+      "Aprende inglés online con Peter Brown, profesor nativo del Reino Unido en Sevilla, España. Clases personalizadas de conversación, gramática, business English, preparación de exámenes y más.",
     ogTitle: "Peter Brown — Profesor de Inglés Nativo | Clases Online",
     ogDescription:
       "Clases de inglés online personalizadas con un profesor nativo británico. Conversación, gramática, business English, exámenes y más. Horario flexible.",

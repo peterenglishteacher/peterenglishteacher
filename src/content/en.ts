@@ -4,7 +4,7 @@ export const en: SiteContent = {
   meta: {
     title: "Peter Brown | Native English Teacher — Online English Classes",
     description:
-      "Learn English online with Peter Brown, a native English teacher from the UK based in Seville. Personalised lessons for conversation, grammar, business English, exam preparation and more.",
+      "Learn English online with Peter Brown, a native English teacher from the UK based in Seville, Spain. Personalised lessons for conversation, grammar, business English, exam preparation and more.",
     ogTitle: "Peter Brown — Native English Teacher | Online Lessons",
     ogDescription:
       "Personalised online English classes with a native British teacher. Conversation, grammar, business English, exams and more. Flexible schedule.",
