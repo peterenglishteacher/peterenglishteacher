@@ -34,7 +34,7 @@ export const es: SiteContent = {
     sectionTitle: "Sobre Peter",
     sectionSubtitle: "Un profesor nativo que realmente entiende a sus alumnos",
     paragraphs: [
-      "Hola, soy Peter Brown — profesor de inglés nativo de Cronwall, en el Reino Unido. Llevo años viviendo en Sevilla, lo que me ha permitido entender de primera mano los retos que enfrentan los hispanohablantes al aprender inglés.",
+      "Hola, soy Peter Brown — profesor de inglés nativo de Cornwall, en el Reino Unido. Llevo años viviendo en Sevilla, lo que me ha permitido entender de primera mano los retos que enfrentan los hispanohablantes al aprender inglés.",
       "Con una amplia experiencia docente, he ayudado a cientos de alumnos a mejorar su fluidez, confianza y habilidades comunicativas. Ya sea que te estés preparando para un examen, necesites inglés para tu carrera profesional o simplemente quieras sentirte más cómodo al hablar, adapto cada clase a tus necesidades y objetivos específicos.",
       "Mi enfoque es práctico, conversacional y centrado completamente en ti. Creo que aprender inglés debe sentirse natural y agradable — y esa es exactamente la experiencia que creo en cada clase.",
     ],
@@ -78,7 +78,7 @@ export const es: SiteContent = {
         icon: "🎓",
         title: "Preparación de exámenes",
         description:
-          "Preparación enfocada para Cambridge, IELTS, TOEFL y otros exámenes oficiales de inglés.",
+          "Preparación completa para todos los exámenes de Cambridge — desde B1 PET hasta B2 First, C1 Advanced y C2 Proficiency.",
       },
       {
         icon: "🎒",
