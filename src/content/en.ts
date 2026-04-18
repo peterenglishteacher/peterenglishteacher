@@ -199,10 +199,10 @@ export const en: SiteContent = {
           "Thanks to Peter, I passed my Cambridge exam with flying colours. His lesson plans are structured and always focused on what I needed most.",
       },
       {
-        name: "Ana M.",
+        name: "Javi Q.",
         role: "Business Manager",
         quote:
-          "I needed to improve my business English for international meetings. Peter understood my goals perfectly and helped me feel confident in professional settings.",
+          "I've been learning with Peter for over a year now, and I couldn't be happier with the experience. His classes are always engaging, enjoyable, and easy to follow, which makes learning English feel natural and motivating. I really appreciate his teaching style and dedication. I'll definitely continue learning with him and improving my English. Thank you so much, Peter!",
       },
     ],
   },

@@ -199,10 +199,10 @@ export const es: SiteContent = {
           "Gracias a Peter, aprobé mi examen Cambridge con nota. Sus clases son estructuradas y siempre enfocadas en lo que más necesitaba.",
       },
       {
-        name: "Ana M.",
-        role: "Directora de empresa",
+        name: "Javi Q.",
+        role: "Business Manager",
         quote:
-          "Necesitaba mejorar mi business English para reuniones internacionales. Peter entendió mis objetivos perfectamente y me ayudó a sentirme segura en contextos profesionales.",
+          "Llevo más de un año aprendiendo con Peter, y no podría estar más feliz con la experiencia. Sus clases siempre son atractivas, agradables y fáciles de seguir, lo que hace que aprender inglés sea natural y motivador. Realmente aprecio su estilo de enseñanza y dedicación. Definitivamente seguiré aprendiendo con él y mejorando mi inglés. ¡Muchas gracias, Peter!",
       },
     ],
   },
