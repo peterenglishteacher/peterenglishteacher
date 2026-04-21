@@ -237,4 +237,9 @@ export const en: SiteContent = {
     cookiesPolicy: "Cookies Policy",
     legalNotice: "Legal Notice",
   },
+  cookieBanner: {
+    message: "We use cookies to analyse traffic and improve your experience. You can accept or reject non-essential cookies.",
+    accept: "Accept",
+    reject: "Reject",
+  },
 };

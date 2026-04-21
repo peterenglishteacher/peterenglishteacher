@@ -134,4 +134,9 @@ export interface SiteContent {
     cookiesPolicy: string;
     legalNotice: string;
   };
+  cookieBanner: {
+    message: string;
+    accept: string;
+    reject: string;
+  };
 }
