@@ -23,6 +23,7 @@ export function generateSeoMetadata(locale: Locale): Metadata {
       languages: {
         "es": `${url}/es`,
         "en": `${url}/en`,
+        "x-default": `${url}/es`,
       },
     },
     openGraph: {
@@ -32,11 +33,20 @@ export function generateSeoMetadata(locale: Locale): Metadata {
       siteName: BRAND.fullBrand,
       locale: localeTag,
       type: "website",
+      images: [
+        {
+          url: `${url}/peter-brown.jpg`,
+          width: 1200,
+          height: 630,
+          alt: BRAND.fullBrand,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t.meta.ogTitle,
       description: t.meta.ogDescription,
+      images: [`${url}/peter-brown.jpg`],
     },
     robots: {
       index: true,
@@ -51,11 +61,14 @@ export function generateJsonLd(locale: Locale) {
   return {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
+    "@id": CONTACT.url,
     name: BRAND.fullBrand,
     description: t.meta.description,
     url: CONTACT.url,
+    image: `${CONTACT.url}/peter-brown.jpg`,
     telephone: CONTACT.whatsappFormatted,
     email: CONTACT.email,
+    sameAs: [CONTACT.facebookUrl],
     address: {
       "@type": "PostalAddress",
       addressLocality: "Seville",
