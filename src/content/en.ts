@@ -2,10 +2,10 @@ import type { SiteContent } from "@/types";
 
 export const en: SiteContent = {
   meta: {
-    title: "Peter Brown | Native English Teacher — Online English Classes",
+    title: "Dr. Peter Brown | Native English Teacher — Online English Classes",
     description:
-      "Learn English online with Peter Brown, a native English teacher from the UK based in Seville, Spain. Personalised lessons for conversation, grammar, business English, exam preparation and more.",
-    ogTitle: "Peter Brown — Native English Teacher | Online Lessons",
+      "Learn English online with Dr. Peter Brown, a native English teacher from the UK based in Seville, Spain. Personalised lessons for conversation, grammar, business English, exam preparation and more.",
+    ogTitle: "Dr. Peter Brown — Native English Teacher | Online Lessons",
     ogDescription:
       "Personalised online English classes with a native British teacher. Conversation, grammar, business English, exams and more. Flexible schedule.",
   },
@@ -14,7 +14,7 @@ export const en: SiteContent = {
       { href: "#about", label: "About" },
       { href: "#services", label: "Classes" },
       { href: "#how-it-works", label: "How It Works" },
-      { href: "#why-peter", label: "Why Peter" },
+      { href: "#why-peter", label: "Why Dr. Peter" },
       { href: "#testimonials", label: "Testimonials" },
       { href: "#contact", label: "Contact" },
     ],
@@ -29,9 +29,10 @@ export const en: SiteContent = {
     cta: "Book Your Lesson",
     ctaSecondary: "Message on WhatsApp",
     online: "100% Online",
+    photoAlt: "Dr. Peter Brown, native English teacher from the UK based in Seville",
   },
   about: {
-    sectionTitle: "About Peter",
+    sectionTitle: "About Dr. Peter",
     sectionSubtitle: "A native English teacher who truly understands his students",
     paragraphs: [
       "Hi, I'm Peter Brown — a native English teacher from Cornwall, in the United Kingdom. I've been living in Seville for years, which has given me a deep understanding of the challenges Spanish speakers face when learning English.",
@@ -125,7 +126,7 @@ export const en: SiteContent = {
     ],
   },
   whyChoose: {
-    sectionTitle: "Why Choose Peter",
+    sectionTitle: "Why Choose Dr. Peter",
     sectionSubtitle: "What makes my lessons different",
     reasons: [
       {
@@ -203,6 +204,12 @@ export const en: SiteContent = {
         role: "Business Manager",
         quote:
           "I've been learning with Peter for over a year now, and I couldn't be happier with the experience. His classes are always engaging, enjoyable, and easy to follow, which makes learning English feel natural and motivating. I really appreciate his teaching style and dedication. I'll definitely continue learning with him and improving my English. Thank you so much, Peter!",
+      },
+      {
+        name: "Mansa M.",
+        role: "English Student",
+        quote:
+          "Delighted with Peter's classes — I achieved my C1 certificate. 100% recommended.",
       },
     ],
   },

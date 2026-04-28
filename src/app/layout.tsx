@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Peter Brown | English Teacher",
+  title: "Dr. Peter Brown | English Teacher",
   description: "Native English teacher — online lessons",
 };
 

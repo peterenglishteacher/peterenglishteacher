@@ -63,7 +63,7 @@ export default function Hero({ content }: HeroProps) {
               <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl">
                 <Image
                   src="/PeterBrown.png"
-                  alt={content.badge}
+                  alt={content.photoAlt}
                   fill
                   className="object-cover"
                   priority

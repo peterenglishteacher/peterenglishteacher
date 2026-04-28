@@ -71,6 +71,7 @@ export interface SiteContent {
     cta: string;
     ctaSecondary: string;
     online: string;
+    photoAlt: string;
   };
   about: {
     sectionTitle: string;

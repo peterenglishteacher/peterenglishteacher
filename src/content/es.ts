@@ -2,10 +2,10 @@ import type { SiteContent } from "@/types";
 
 export const es: SiteContent = {
   meta: {
-    title: "Peter Brown | Profesor de Inglés Nativo — Clases de Inglés Online",
+    title: "Dr. Peter Brown | Profesor de Inglés Nativo — Clases de Inglés Online",
     description:
-      "Aprende inglés online con Peter Brown, profesor nativo del Reino Unido en Sevilla, España. Clases personalizadas de conversación, gramática, business English, preparación de exámenes y más.",
-    ogTitle: "Peter Brown — Profesor de Inglés Nativo | Clases Online",
+      "Aprende inglés online con Dr. Peter Brown, profesor nativo del Reino Unido en Sevilla, España. Clases personalizadas de conversación, gramática, business English, preparación de exámenes y más.",
+    ogTitle: "Dr. Peter Brown — Profesor de Inglés Nativo | Clases Online",
     ogDescription:
       "Clases de inglés online personalizadas con un profesor nativo británico. Conversación, gramática, business English, exámenes y más. Horario flexible.",
   },
@@ -14,7 +14,7 @@ export const es: SiteContent = {
       { href: "#about", label: "Sobre mí" },
       { href: "#services", label: "Clases" },
       { href: "#how-it-works", label: "Cómo funciona" },
-      { href: "#why-peter", label: "Por qué Peter" },
+      { href: "#why-peter", label: "Por qué Dr. Peter" },
       { href: "#testimonials", label: "Testimonios" },
       { href: "#contact", label: "Contacto" },
     ],
@@ -29,9 +29,10 @@ export const es: SiteContent = {
     cta: "Reserva tu clase",
     ctaSecondary: "Escríbeme por WhatsApp",
     online: "100% Online",
+    photoAlt: "Dr. Peter Brown, profesor de inglés nativo del Reino Unido en Sevilla",
   },
   about: {
-    sectionTitle: "Sobre Peter",
+    sectionTitle: "Sobre Dr. Peter",
     sectionSubtitle: "Un profesor nativo que realmente entiende a sus alumnos",
     paragraphs: [
       "Hola, soy Peter Brown — profesor de inglés nativo de Cornwall, en el Reino Unido. Llevo años viviendo en Sevilla, lo que me ha permitido entender de primera mano los retos que enfrentan los hispanohablantes al aprender inglés.",
@@ -125,7 +126,7 @@ export const es: SiteContent = {
     ],
   },
   whyChoose: {
-    sectionTitle: "¿Por qué elegir a Peter?",
+    sectionTitle: "¿Por qué elegir a Dr. Peter?",
     sectionSubtitle: "Lo que hace mis clases diferentes",
     reasons: [
       {
@@ -203,6 +204,12 @@ export const es: SiteContent = {
         role: "Business Manager",
         quote:
           "Llevo más de un año aprendiendo con Peter, y no podría estar más feliz con la experiencia. Sus clases siempre son atractivas, agradables y fáciles de seguir, lo que hace que aprender inglés sea natural y motivador. Realmente aprecio su estilo de enseñanza y dedicación. Definitivamente seguiré aprendiendo con él y mejorando mi inglés. ¡Muchas gracias, Peter!",
+      },
+      {
+        name: "Mansa M.",
+        role: "Alumna de inglés",
+        quote:
+          "Encantada con las clases con Peter me he sacado un C1, recomendable 100 por 100.",
       },
     ],
   },

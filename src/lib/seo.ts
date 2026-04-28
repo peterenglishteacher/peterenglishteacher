@@ -74,10 +74,10 @@ export function generateJsonLd(locale: Locale) {
       addressLocality: "Seville",
       addressCountry: "ES",
     },
-    areaServed: {
-      "@type": "Place",
-      name: "Worldwide (online)",
-    },
+    areaServed: [
+      { "@type": "City", name: "Seville", addressCountry: "ES" },
+      { "@type": "Place", name: "Worldwide (online)" },
+    ],
     serviceType: "English Language Teaching",
     provider: {
       "@type": "Person",
@@ -87,11 +87,25 @@ export function generateJsonLd(locale: Locale) {
         "@type": "Country",
         name: "United Kingdom",
       },
+      knowsLanguage: ["en", "es"],
     },
     availableChannel: {
       "@type": "ServiceChannel",
       serviceType: "Online",
+      availableLanguage: "English",
     },
-    inLanguage: [locale === "es" ? "es" : "en", "en"],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: locale === "es" ? "Clases de inglés" : "English Classes",
+      itemListElement: t.services.items.map((service) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: service.title,
+          description: service.description,
+        },
+      })),
+    },
+    inLanguage: locale === "es" ? ["es", "en"] : ["en"],
   };
 }
