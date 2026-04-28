@@ -14,7 +14,7 @@ export const en: SiteContent = {
       { href: "#about", label: "About" },
       { href: "#services", label: "Classes" },
       { href: "#how-it-works", label: "How It Works" },
-      { href: "#why-peter", label: "Why Dr. Peter" },
+      { href: "#why-peter", label: "Why Dr. Peter Brown" },
       { href: "#testimonials", label: "Testimonials" },
       { href: "#contact", label: "Contact" },
     ],
@@ -32,7 +32,7 @@ export const en: SiteContent = {
     photoAlt: "Dr. Peter Brown, native English teacher from the UK based in Seville",
   },
   about: {
-    sectionTitle: "About Dr. Peter",
+    sectionTitle: "About Dr. Peter Brown",
     sectionSubtitle: "A native English teacher who truly understands his students",
     paragraphs: [
       "Hi, I'm Peter Brown — a native English teacher from Cornwall, in the United Kingdom. I've been living in Seville for years, which has given me a deep understanding of the challenges Spanish speakers face when learning English.",
@@ -126,7 +126,7 @@ export const en: SiteContent = {
     ],
   },
   whyChoose: {
-    sectionTitle: "Why Choose Dr. Peter",
+    sectionTitle: "Why Choose Dr. Peter Brown",
     sectionSubtitle: "What makes my lessons different",
     reasons: [
       {

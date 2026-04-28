@@ -14,7 +14,7 @@ export const es: SiteContent = {
       { href: "#about", label: "Sobre mí" },
       { href: "#services", label: "Clases" },
       { href: "#how-it-works", label: "Cómo funciona" },
-      { href: "#why-peter", label: "Por qué Dr. Peter" },
+      { href: "#why-peter", label: "Por qué Dr. Peter Brown" },
       { href: "#testimonials", label: "Testimonios" },
       { href: "#contact", label: "Contacto" },
     ],
@@ -32,7 +32,7 @@ export const es: SiteContent = {
     photoAlt: "Dr. Peter Brown, profesor de inglés nativo del Reino Unido en Sevilla",
   },
   about: {
-    sectionTitle: "Sobre Dr. Peter",
+    sectionTitle: "Sobre Dr. Peter Brown",
     sectionSubtitle: "Un profesor nativo que realmente entiende a sus alumnos",
     paragraphs: [
       "Hola, soy Peter Brown — profesor de inglés nativo de Cornwall, en el Reino Unido. Llevo años viviendo en Sevilla, lo que me ha permitido entender de primera mano los retos que enfrentan los hispanohablantes al aprender inglés.",
@@ -126,7 +126,7 @@ export const es: SiteContent = {
     ],
   },
   whyChoose: {
-    sectionTitle: "¿Por qué elegir a Dr. Peter?",
+    sectionTitle: "¿Por qué elegir a Dr. Peter Brown?",
     sectionSubtitle: "Lo que hace mis clases diferentes",
     reasons: [
       {
