@@ -17,11 +17,12 @@ Landing page profesional y bilingüe (ES/EN) para un profesor de inglés nativo.
 # Instalar dependencias
 npm install
 
-# Copiar variables de entorno
-cp .env.local.example .env.local
+# Crear archivo .env con las variables necesarias
+# RESEND_API_KEY=re_tu_clave_aqui
+# EMAIL_FROM=hello@peterenglishteacher.com
+# EMAIL_TO=peterbrown1978.pb@gmail.com
 
 # Editar las variables de entorno con tu clave de Resend
-# RESEND_API_KEY=re_tu_clave_aqui
 
 # Iniciar en desarrollo
 npm run dev
@@ -32,7 +33,7 @@ npm run dev
 1. Crea una cuenta en [resend.com](https://resend.com)
 2. Obtén tu API Key
 3. Configura tu dominio (para producción) o usa el dominio de pruebas
-4. Añade las variables en `.env.local`:
+4. Añade las variables en `.env`:
    ```
    RESEND_API_KEY=re_tu_clave_aqui
    EMAIL_FROM=hello@peterenglishteacher.com
