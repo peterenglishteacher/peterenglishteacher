@@ -211,6 +211,12 @@ export const en: SiteContent = {
         quote:
           "Delighted with Peter's classes — I achieved my C1 certificate. 100% recommended.",
       },
+      {
+        name: "Lorena P.",
+        role: "English Student",
+        quote:
+          "Peter is, without exaggeration, an exceptional teacher and an even better person. He has a way of teaching that goes far beyond books. With him, I have learned naturally, almost without even realising it. On top of that, with his great sense of humour, you are never bored. Thanks to Peter, English has gone from being a difficult subject to becoming my hobby. Since I started his classes, my English has taken off. Now I can hold a conversation, describe situations, and even follow a film without subtitles, something that once seemed impossible to me. I am deeply grateful for everything he has taught me. I recommend him 100%.",
+      },
     ],
   },
   contact: {

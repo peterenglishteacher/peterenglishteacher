@@ -211,6 +211,12 @@ export const es: SiteContent = {
         quote:
           "Encantada con las clases con Peter me he sacado un C1, recomendable 100 por 100.",
       },
+      {
+        name: "Lorena P.",
+        role: "Alumna de inglés",
+        quote:
+          "Peter es, sin exagerar, un profesor excepcional y una persona aún mejor. Tiene una forma de enseñar que va mucho más allá de los libros. Con él he aprendido de forma natural, casi sin darme cuenta. Además, con su gran sentido del humor nunca te aburres. Gracias a Peter, mi inglés ha pasado de ser una asignatura difícil a convertirse en mi hobby. Desde que empecé sus clases, mi inglés ha volado. Ahora puedo mantener una conversación, describir situaciones o incluso seguir una película sin subtítulos, algo que antes me parecía imposible. Estoy profundamente agradecida por todo lo que me ha enseñado. Lo recomiendo 100%.",
+      },
     ],
   },
   contact: {
