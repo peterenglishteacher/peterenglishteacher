@@ -217,6 +217,12 @@ export const es: SiteContent = {
         quote:
           "Peter es, sin exagerar, un profesor excepcional y una persona aún mejor. Tiene una forma de enseñar que va mucho más allá de los libros. Con él he aprendido de forma natural, casi sin darme cuenta. Además, con su gran sentido del humor nunca te aburres. Gracias a Peter, mi inglés ha pasado de ser una asignatura difícil a convertirse en mi hobby. Desde que empecé sus clases, mi inglés ha volado. Ahora puedo mantener una conversación, describir situaciones o incluso seguir una película sin subtítulos, algo que antes me parecía imposible. Estoy profundamente agradecida por todo lo que me ha enseñado. Lo recomiendo 100%.",
       },
+      {
+        name: "Ana P.",
+        role: "Alumna de inglés",
+        quote:
+          "Peter es un gran profesional, sus clases son intensas y dinámicas, consigue crear un ambiente de confianza y motivación que hace que disfrutes aprendiendo. Mi objetivo era aprender inglés desde cero, a una edad adulta, y Peter me ayudó a superar ese miedo inicial y a coger confianza. Mi progreso ha sido espectacular gracias a su método que es intenso pero fácil y además es claro, bien estructurado, cercano y motivador. Además siempre te sorprende con alguna broma divertida que rompe la tensión de la clase. En mi opinión Peter reúne todas las cualidades para ser el profesor de inglés ideal.",
+      },
     ],
   },
   contact: {
