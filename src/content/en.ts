@@ -223,6 +223,12 @@ export const en: SiteContent = {
         quote:
           "Peter is a great professional. His classes are intense and dynamic—he creates an environment of trust and motivation that makes learning truly enjoyable. My goal was to learn English from scratch as an adult, and Peter helped me overcome my initial fear and build real confidence. My progress has been spectacular thanks to his method, which is intense yet easy to follow, clear, well-structured, personable and motivating. What I love most is that he always surprises you with a funny joke that breaks the tension of the class. In my opinion, Peter truly has all the qualities needed to be the ideal English teacher.",
       },
+      {
+        name: "Adriana M.",
+        role: "English Student",
+        quote:
+          "I've been taking classes with Peter since 2020, and thanks to him I've passed my B1 and B2 exams and I'm now on my way to C1. He's honestly a 10 out of 10 teacher and the classes fly by. I've improved so much in English — in speaking and in everything else. Thanks to Peter, I've come to see English as something fun and I've been able to witness my own incredible progress. My grades at school weren't great before I started with Peter, and I often got frustrated because I thought English just wasn't for me — but now, thanks to him, I've realised it is.",
+      },
     ],
   },
   contact: {

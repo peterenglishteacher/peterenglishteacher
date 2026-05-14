@@ -223,6 +223,12 @@ export const es: SiteContent = {
         quote:
           "Peter es un gran profesional, sus clases son intensas y dinámicas, consigue crear un ambiente de confianza y motivación que hace que disfrutes aprendiendo. Mi objetivo era aprender inglés desde cero, a una edad adulta, y Peter me ayudó a superar ese miedo inicial y a coger confianza. Mi progreso ha sido espectacular gracias a su método que es intenso pero fácil y además es claro, bien estructurado, cercano y motivador. Además siempre te sorprende con alguna broma divertida que rompe la tensión de la clase. En mi opinión Peter reúne todas las cualidades para ser el profesor de inglés ideal.",
       },
+      {
+        name: "Adriana M.",
+        role: "Alumna de inglés",
+        quote:
+          "Llevo dando clases con Peter desde 2020, gracias a él me he sacado el B1, B2 y ahora estoy camino del C1. La verdad es que es un profe de 10 y las clases se pasan volando. He mejorado muchísimo en inglés, tanto en speaking como en todo lo demás. Gracias a Peter he conseguido ver el inglés como algo divertido y he podido ver mi gran progreso. Mis notas en el colegio no eran muy buenas antes de tener a Peter y muchas veces me frustraba porque pensaba que el inglés no era para mí, pero ahora, gracias a él me he dado cuenta de que sí.",
+      },
     ],
   },
   contact: {
