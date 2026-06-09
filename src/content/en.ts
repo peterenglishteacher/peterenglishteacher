@@ -229,6 +229,18 @@ export const en: SiteContent = {
         quote:
           "I've been taking classes with Peter since 2020, and thanks to him I've passed my B1 and B2 exams and I'm now on my way to C1. He's honestly a 10 out of 10 teacher and the classes fly by. I've improved so much in English — in speaking and in everything else. Thanks to Peter, I've come to see English as something fun and I've been able to witness my own incredible progress. My grades at school weren't great before I started with Peter, and I often got frustrated because I thought English just wasn't for me — but now, thanks to him, I've realised it is.",
       },
+      {
+        name: "Cristina J.",
+        role: "English Student",
+        quote:
+          "I had been hesitating about taking up English lessons for years. Although I had learnt English in some different ways, for me it was like learning from scratch. Unsurprisingly, Peter's method caught me after the first minute. Learning with him always means having such a great time. It's a way to have fun while you're improving your English skills. Now, I feel self-confident for my C1 certificate exam. Definitely recommend if you want to actually improve your English without the stress!",
+      },
+      {
+        name: "Judith F.",
+        role: "English Student",
+        quote:
+          "Peter is not only a great teacher but also a great person. He knows how to identify what you need and makes the learning process feel like teamwork. In my case, I had a real fear of speaking English — it was very hard for me to express myself and I was afraid of not doing it right. I had tried studying at several academies and never seemed to improve; I was desperate. Since I started classes with him, my English has improved enormously. My ability to communicate and understand conversations has improved noticeably. Now I feel much more confident holding conversations in English, and most importantly, I have learned to enjoy studying English and feel motivated to continue on this path. If you want to gain confidence and fluency in a great environment, I recommend you give him a try! Thank you for everything, Peter!",
+      },
     ],
   },
   contact: {

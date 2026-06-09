@@ -229,6 +229,18 @@ export const es: SiteContent = {
         quote:
           "Llevo dando clases con Peter desde 2020, gracias a él me he sacado el B1, B2 y ahora estoy camino del C1. La verdad es que es un profe de 10 y las clases se pasan volando. He mejorado muchísimo en inglés, tanto en speaking como en todo lo demás. Gracias a Peter he conseguido ver el inglés como algo divertido y he podido ver mi gran progreso. Mis notas en el colegio no eran muy buenas antes de tener a Peter y muchas veces me frustraba porque pensaba que el inglés no era para mí, pero ahora, gracias a él me he dado cuenta de que sí.",
       },
+      {
+        name: "Cristina J.",
+        role: "Alumna de inglés",
+        quote:
+          "Llevaba años dudando en empezar clases de inglés. Aunque había aprendido inglés de distintas maneras, para mí era como empezar desde cero. No es de extrañar que el método de Peter me enganchara desde el primer minuto. Aprender con él siempre significa pasarlo genial. Es una forma de divertirse mientras mejoras tu inglés. Ahora me siento segura de cara a mi examen del certificado C1. ¡Totalmente recomendable si quieres mejorar tu inglés de verdad sin estrés!",
+      },
+      {
+        name: "Judith F.",
+        role: "Alumna de inglés",
+        quote:
+          "Peter no es solo un gran profesor sino también una gran persona. Sabe identificar qué necesitas y logra que el proceso de aprendizaje se sienta como un trabajo en equipo. En mi caso tenía un trauma al hablar inglés, me costaba mucho expresarme y tenía miedo a no hacerlo bien. Había intentado estudiar en varias academias, nunca parecía mejorar y estaba desesperada. Desde que hago clases con él he mejorado con creces mi inglés. Mi capacidad de comunicar y de entender conversaciones han mejorado notablemente. Ahora me siento mucho más segura al mantener conversaciones en inglés y lo más importante es que he aprendido a disfrutar estudiando inglés y a sentirme motivada por seguir este camino. Si quieres coger seguridad y fluidez en un buen ambiente te recomiendo que le des una oportunidad! ¡Gracias por todo, Peter!",
+      },
     ],
   },
   contact: {
