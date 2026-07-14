@@ -62,7 +62,7 @@ export default function Hero({ content }: HeroProps) {
               <div className="absolute -inset-4 bg-gradient-to-tr from-red-500/20 to-blue-400/20 rounded-2xl blur-2xl" />
               <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl">
                 <Image
-                  src="/PeterBrown.png"
+                  src="/PeterBrownHero.png"
                   alt={content.photoAlt}
                   fill
                   className="object-cover"
