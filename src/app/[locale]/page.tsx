@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
 
 import Hero from "@/components/sections/Hero";
+import CertificationStamp from "@/components/sections/CertificationStamp";
 import About from "@/components/sections/About";
 import Services from "@/components/sections/Services";
 import HowItWorks from "@/components/sections/HowItWorks";
@@ -34,6 +35,7 @@ export default async function LocalePage({
 
       <main className="flex-1 pt-16 md:pt-18">
         <Hero content={t.hero} />
+        <CertificationStamp />
         <About content={t.about} />
         <Services content={t.services} />
         <HowItWorks content={t.howItWorks} />
